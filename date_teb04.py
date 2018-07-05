@@ -1,0 +1,12 @@
+import datetime
+t=datetime.time(1,45,56)
+print(t)
+print(t.hour)
+print(t.minute)
+print(datetime.date.max)
+print(datetime.date.min)
+d=datetime.date(2018,4,5)
+print(d.weekday())
+d.replace(month=9)
+print(d)
+print(d.ctime())
