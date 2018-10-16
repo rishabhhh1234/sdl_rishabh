@@ -1,0 +1,14 @@
+A = set({0, 2, 4, 6, 8});
+B = set({1, 2, 3, 4, 5});
+ 
+# union
+print("Union :", A | B)
+ 
+# intersection
+print("Intersection :", A & B)
+ 
+# difference
+print("Difference :", A - B)
+ 
+# symmetric difference
+print("Symmetric difference :", A ^ B)
